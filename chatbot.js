@@ -513,7 +513,7 @@ class ChatBot {
                     <div class="chatbot-header">
                         <div class="chatbot-title">
                             <span class="title-icon">🤖</span>
-                            AI Assistant v6
+                            Brigitte's AI Assistant v6
                         </div>
                         <button class="chatbot-close" id="chatbotClose">
                             <i class="fas fa-times"></i>
@@ -522,7 +522,7 @@ class ChatBot {
                     
                     <div class="chat-messages" id="chatMessages">
                         <div class="message system">
-                            Welcome to AI Assistant! I can answer any questions about Professor Luarn's courses or AI topics.
+                            Welcome to AI Assistant! I can answer any questions about Brigitte's assignments.
                         </div>
                     </div>
                     
@@ -740,7 +740,7 @@ class ChatBot {
         if (recentHistory.length === 0) {
             // If no history, show welcome message
             setTimeout(() => {
-                this.addMessage('Hello! I\'m AI Assistant v6. Do you have any questions about Professor Luarn\'s courses or AI topics?', 'ai');
+                this.addMessage('Hello! I\'m Brigitte s AI Assistant v6. Do you have any questions about Brigitte\'s assignments?', 'ai');
             }, 1000);
         }
     }
